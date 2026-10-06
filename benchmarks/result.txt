@@ -1,0 +1,37 @@
+goos: linux
+goarch: amd64
+pkg: fillin-benchmarks
+cpu: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+BenchmarkCompareParse/size=1/fillin-4  	 3552691	       161.9 ns/op	     160 B/op	       2 allocs/op
+BenchmarkCompareParse/size=1/fasttemplate-4         	 2419149	       247.7 ns/op	     384 B/op	       3 allocs/op
+BenchmarkCompareParse/size=1/go-template-4          	  161925	      3720 ns/op	    3104 B/op	      31 allocs/op
+BenchmarkCompareParse/size=10/fillin-4              	 1000000	       581.3 ns/op	     368 B/op	       2 allocs/op
+BenchmarkCompareParse/size=10/fasttemplate-4        	  909891	       849.5 ns/op	     768 B/op	       3 allocs/op
+BenchmarkCompareParse/size=10/go-template-4         	   32882	     21698 ns/op	    8600 B/op	     143 allocs/op
+BenchmarkCompareParse/size=50/fillin-4              	  267579	      2120 ns/op	    1392 B/op	       2 allocs/op
+BenchmarkCompareParse/size=50/fasttemplate-4        	  298142	      4094 ns/op	    2496 B/op	       3 allocs/op
+BenchmarkCompareParse/size=50/go-template-4         	    6718	     98752 ns/op	   32216 B/op	     625 allocs/op
+BenchmarkCompareParse/size=100/fillin-4             	  142532	      3964 ns/op	    2800 B/op	       2 allocs/op
+BenchmarkCompareParse/size=100/fasttemplate-4       	  154962	      3889 ns/op	    4800 B/op	       3 allocs/op
+BenchmarkCompareParse/size=100/go-template-4        	    3918	    144347 ns/op	   62280 B/op	    1226 allocs/op
+BenchmarkCompareRender/size=1/fillin-4              	 6609813	        94.15 ns/op	      48 B/op	       2 allocs/op
+BenchmarkCompareRender/size=1/fasttemplate-4        	 4961725	       123.0 ns/op	      24 B/op	       2 allocs/op
+BenchmarkCompareRender/size=1/go-template-4         	  419992	      1376 ns/op	     568 B/op	      16 allocs/op
+BenchmarkCompareRender/size=10/fillin-4             	  933468	       536.2 ns/op	     448 B/op	       2 allocs/op
+BenchmarkCompareRender/size=10/fasttemplate-4       	  841364	       900.3 ns/op	     413 B/op	      13 allocs/op
+BenchmarkCompareRender/size=10/go-template-4        	   49876	     13603 ns/op	    3616 B/op	     116 allocs/op
+BenchmarkCompareRender/size=50/fillin-4             	  186574	      3049 ns/op	    2496 B/op	       2 allocs/op
+BenchmarkCompareRender/size=50/fasttemplate-4       	  139058	      4976 ns/op	    2416 B/op	      55 allocs/op
+BenchmarkCompareRender/size=50/go-template-4        	    9463	     88328 ns/op	   18468 B/op	     559 allocs/op
+BenchmarkCompareRender/size=100/fillin-4            	   97902	      5730 ns/op	    4864 B/op	       2 allocs/op
+BenchmarkCompareRender/size=100/fasttemplate-4      	   72996	     10060 ns/op	    3604 B/op	     103 allocs/op
+BenchmarkCompareRender/size=100/go-template-4       	    3777	    154572 ns/op	   36823 B/op	    1110 allocs/op
+BenchmarkCompareOneShot/fillin-4                    	  492997	      1052 ns/op	     816 B/op	       4 allocs/op
+BenchmarkCompareOneShot/fasttemplate-4              	  596059	      1178 ns/op	     408 B/op	      13 allocs/op
+BenchmarkCompareOneShot/go-template-4               	   19617	     31905 ns/op	   12218 B/op	     259 allocs/op
+BenchmarkCaseInsensitive/fillin-4                   	 1915550	       309.0 ns/op	     128 B/op	       2 allocs/op
+BenchmarkAPIMethods/Render-4                        	  119595	      5475 ns/op	    4864 B/op	       2 allocs/op
+BenchmarkAPIMethods/Append-4                        	  133544	      4306 ns/op	    1408 B/op	       1 allocs/op
+BenchmarkAPIMethods/RenderTo-4                      	  116530	      5729 ns/op	    4864 B/op	       2 allocs/op
+PASS
+ok  	fillin-benchmarks	20.146s

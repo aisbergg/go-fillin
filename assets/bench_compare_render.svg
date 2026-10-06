@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 960 540"><path d="M 0 0
+L 960 0
+L 960 540
+L 0 540
+L 0 0" style="stroke:none;fill:rgb(15,23,42)"/><text x="38" y="50" style="stroke:none;fill:rgb(249,250,251);font-size:29.3px;font-family:'Roboto Medium',sans-serif">Render (lower is better)</text><path d="M 299 71
+L 329 71
+L 329 84
+L 299 84
+L 299 71" style="stroke:none;fill:rgb(14,165,233)"/><text x="331" y="83" style="stroke:none;fill:rgb(229,231,235);font-size:17.3px;font-family:'Roboto Medium',sans-serif">fillin</text><path d="M 385 71
+L 415 71
+L 415 84
+L 385 84
+L 385 71" style="stroke:none;fill:rgb(82,86,201)"/><text x="417" y="83" style="stroke:none;fill:rgb(229,231,235);font-size:17.3px;font-family:'Roboto Medium',sans-serif">fasttemplate</text><path d="M 536 71
+L 566 71
+L 566 84
+L 536 84
+L 536 71" style="stroke:none;fill:rgb(137,72,206)"/><text x="568" y="83" style="stroke:none;fill:rgb(229,231,235);font-size:17.3px;font-family:'Roboto Medium',sans-serif">go-template</text><text x="35" y="322" style="stroke:none;fill:rgb(229,231,235);font-size:17.3px;font-family:'Roboto Medium',sans-serif" transform="rotate(270.00,35,322)">ns/op</text><text x="41" y="112" style="stroke:none;fill:rgb(229,231,235);font-size:16px;font-family:'Roboto Medium',sans-serif">110.00 µs</text><text x="41" y="147" style="stroke:none;fill:rgb(229,231,235);font-size:16px;font-family:'Roboto Medium',sans-serif">100.00 µs</text><text x="50" y="182" style="stroke:none;fill:rgb(229,231,235);font-size:16px;font-family:'Roboto Medium',sans-serif">90.00 µs</text><text x="50" y="217" style="stroke:none;fill:rgb(229,231,235);font-size:16px;font-family:'Roboto Medium',sans-serif">80.00 µs</text><text x="50" y="252" style="stroke:none;fill:rgb(229,231,235);font-size:16px;font-family:'Roboto Medium',sans-serif">70.00 µs</text><text x="50" y="287" style="stroke:none;fill:rgb(229,231,235);font-size:16px;font-family:'Roboto Medium',sans-serif">60.00 µs</text><text x="50" y="323" style="stroke:none;fill:rgb(229,231,235);font-size:16px;font-family:'Roboto Medium',sans-serif">50.00 µs</text><text x="50" y="358" style="stroke:none;fill:rgb(229,231,235);font-size:16px;font-family:'Roboto Medium',sans-serif">40.00 µs</text><text x="50" y="393" style="stroke:none;fill:rgb(229,231,235);font-size:16px;font-family:'Roboto Medium',sans-serif">30.00 µs</text><text x="50" y="428" style="stroke:none;fill:rgb(229,231,235);font-size:16px;font-family:'Roboto Medium',sans-serif">20.00 µs</text><text x="50" y="463" style="stroke:none;fill:rgb(229,231,235);font-size:16px;font-family:'Roboto Medium',sans-serif">10.00 µs</text><text x="82" y="499" style="stroke:none;fill:rgb(229,231,235);font-size:16px;font-family:'Roboto Medium',sans-serif">0 ns</text><path d="M 119 106
+L 940 106" style="stroke-width:1;stroke:rgb(148,163,184);fill:none"/><path d="M 119 141
+L 940 141" style="stroke-width:1;stroke:rgb(148,163,184);fill:none"/><path d="M 119 176
+L 940 176" style="stroke-width:1;stroke:rgb(148,163,184);fill:none"/><path d="M 119 212
+L 940 212" style="stroke-width:1;stroke:rgb(148,163,184);fill:none"/><path d="M 119 247
+L 940 247" style="stroke-width:1;stroke:rgb(148,163,184);fill:none"/><path d="M 119 282
+L 940 282" style="stroke-width:1;stroke:rgb(148,163,184);fill:none"/><path d="M 119 318
+L 940 318" style="stroke-width:1;stroke:rgb(148,163,184);fill:none"/><path d="M 119 353
+L 940 353" style="stroke-width:1;stroke:rgb(148,163,184);fill:none"/><path d="M 119 388
+L 940 388" style="stroke-width:1;stroke:rgb(148,163,184);fill:none"/><path d="M 119 424
+L 940 424" style="stroke-width:1;stroke:rgb(148,163,184);fill:none"/><path d="M 119 459
+L 940 459" style="stroke-width:1;stroke:rgb(148,163,184);fill:none"/><path d="M 123 495
+L 940 495" style="stroke-width:1;stroke:rgb(229,231,235);fill:none"/><path d="M 123 500
+L 123 495" style="stroke-width:1;stroke:rgb(229,231,235);fill:none"/><path d="M 327 500
+L 327 495" style="stroke-width:1;stroke:rgb(229,231,235);fill:none"/><path d="M 531 500
+L 531 495" style="stroke-width:1;stroke:rgb(229,231,235);fill:none"/><path d="M 735 500
+L 735 495" style="stroke-width:1;stroke:rgb(229,231,235);fill:none"/><path d="M 940 500
+L 940 495" style="stroke-width:1;stroke:rgb(229,231,235);fill:none"/><text x="201" y="518" style="stroke:none;fill:rgb(229,231,235);font-size:16px;font-family:'Roboto Medium',sans-serif">size=1</text><text x="401" y="518" style="stroke:none;fill:rgb(229,231,235);font-size:16px;font-family:'Roboto Medium',sans-serif">size=10</text><text x="605" y="518" style="stroke:none;fill:rgb(229,231,235);font-size:16px;font-family:'Roboto Medium',sans-serif">size=50</text><text x="804" y="518" style="stroke:none;fill:rgb(229,231,235);font-size:16px;font-family:'Roboto Medium',sans-serif">size=100</text><path d="M 133 495
+L 183 495
+L 183 494
+L 133 494
+L 133 495" style="stroke:none;fill:rgb(14,165,233)"/><path d="M 337 494
+L 387 494
+L 387 494
+L 337 494
+L 337 494" style="stroke:none;fill:rgb(14,165,233)"/><path d="M 541 488
+L 591 488
+L 591 494
+L 541 494
+L 541 488" style="stroke:none;fill:rgb(14,165,233)"/><path d="M 745 482
+L 795 482
+L 795 494
+L 745 494
+L 745 482" style="stroke:none;fill:rgb(14,165,233)"/><path d="M 200 495
+L 250 495
+L 250 494
+L 200 494
+L 200 495" style="stroke:none;fill:rgb(82,86,201)"/><path d="M 404 493
+L 454 493
+L 454 494
+L 404 494
+L 404 493" style="stroke:none;fill:rgb(82,86,201)"/><path d="M 608 482
+L 658 482
+L 658 494
+L 608 494
+L 608 482" style="stroke:none;fill:rgb(82,86,201)"/><path d="M 812 472
+L 862 472
+L 862 494
+L 812 494
+L 812 472" style="stroke:none;fill:rgb(82,86,201)"/><path d="M 267 491
+L 317 491
+L 317 494
+L 267 494
+L 267 491" style="stroke:none;fill:rgb(137,72,206)"/><path d="M 471 459
+L 521 459
+L 521 494
+L 471 494
+L 471 459" style="stroke:none;fill:rgb(137,72,206)"/><path d="M 675 312
+L 725 312
+L 725 494
+L 675 494
+L 675 312" style="stroke:none;fill:rgb(137,72,206)"/><path d="M 879 130
+L 929 130
+L 929 494
+L 879 494
+L 879 130" style="stroke:none;fill:rgb(137,72,206)"/><text x="143" y="478" style="stroke:none;fill:rgb(229,231,235);font-size:12px;font-family:'Roboto Medium',sans-serif">76 ns</text><text x="142" y="490" style="stroke:none;fill:rgb(229,231,235);font-size:12px;font-family:'Roboto Medium',sans-serif">± 1 ns</text><text x="344" y="477" style="stroke:none;fill:rgb(229,231,235);font-size:12px;font-family:'Roboto Medium',sans-serif">426 ns</text><text x="346" y="489" style="stroke:none;fill:rgb(229,231,235);font-size:12px;font-family:'Roboto Medium',sans-serif">± 4 ns</text><text x="546" y="471" style="stroke:none;fill:rgb(229,231,235);font-size:12px;font-family:'Roboto Medium',sans-serif">2.04 µs</text><text x="547" y="483" style="stroke:none;fill:rgb(229,231,235);font-size:12px;font-family:'Roboto Medium',sans-serif">± 41 ns</text><text x="750" y="465" style="stroke:none;fill:rgb(229,231,235);font-size:12px;font-family:'Roboto Medium',sans-serif">3.79 µs</text><text x="751" y="477" style="stroke:none;fill:rgb(229,231,235);font-size:12px;font-family:'Roboto Medium',sans-serif">± 61 ns</text><text x="207" y="478" style="stroke:none;fill:rgb(229,231,235);font-size:12px;font-family:'Roboto Medium',sans-serif">102 ns</text><text x="209" y="490" style="stroke:none;fill:rgb(229,231,235);font-size:12px;font-family:'Roboto Medium',sans-serif">± 1 ns</text><text x="411" y="476" style="stroke:none;fill:rgb(229,231,235);font-size:12px;font-family:'Roboto Medium',sans-serif">755 ns</text><text x="410" y="488" style="stroke:none;fill:rgb(229,231,235);font-size:12px;font-family:'Roboto Medium',sans-serif">± 11 ns</text><text x="612" y="465" style="stroke:none;fill:rgb(229,231,235);font-size:12px;font-family:'Roboto Medium',sans-serif">3.71 µs</text><text x="610" y="477" style="stroke:none;fill:rgb(229,231,235);font-size:12px;font-family:'Roboto Medium',sans-serif">± 228 ns</text><text x="816" y="455" style="stroke:none;fill:rgb(229,231,235);font-size:12px;font-family:'Roboto Medium',sans-serif">6.64 µs</text><text x="814" y="467" style="stroke:none;fill:rgb(229,231,235);font-size:12px;font-family:'Roboto Medium',sans-serif">± 100 ns</text><text x="272" y="474" style="stroke:none;fill:rgb(229,231,235);font-size:12px;font-family:'Roboto Medium',sans-serif">1.16 µs</text><text x="276" y="486" style="stroke:none;fill:rgb(229,231,235);font-size:12px;font-family:'Roboto Medium',sans-serif">± 7 ns</text><text x="473" y="442" style="stroke:none;fill:rgb(229,231,235);font-size:12px;font-family:'Roboto Medium',sans-serif">10.22 µs</text><text x="477" y="454" style="stroke:none;fill:rgb(229,231,235);font-size:12px;font-family:'Roboto Medium',sans-serif">± 41 ns</text><text x="677" y="295" style="stroke:none;fill:rgb(229,231,235);font-size:12px;font-family:'Roboto Medium',sans-serif">51.88 µs</text><text x="677" y="307" style="stroke:none;fill:rgb(229,231,235);font-size:12px;font-family:'Roboto Medium',sans-serif">± 196 ns</text><text x="877" y="113" style="stroke:none;fill:rgb(229,231,235);font-size:12px;font-family:'Roboto Medium',sans-serif">103.46 µs</text><text x="881" y="125" style="stroke:none;fill:rgb(229,231,235);font-size:12px;font-family:'Roboto Medium',sans-serif">± 389 ns</text></svg>

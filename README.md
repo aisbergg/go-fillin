@@ -5,7 +5,6 @@
 [![License](https://img.shields.io/github/license/aisbergg/go-fillin)](https://pkg.go.dev/github.com/aisbergg/go-fillin)
 
 <br />
-<br />
 
 <div align="center">
   <h2 align="center"><b>fillin</b></h2>

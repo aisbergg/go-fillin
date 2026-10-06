@@ -243,7 +243,7 @@ run = "copier update --defaults"
 
 [tasks.release-tag]
 description = "Stage a release (requires VERSION env var)"
-depends = ["run-hooks", "test"]
+depends = ["check-hygiene", "test"]
 run = """
 if [ -z "$VERSION" ]; then
   echo "ERR: You have to specify the next release version (e.g. 'VERSION=v0.0.0')!"

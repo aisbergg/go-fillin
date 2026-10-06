@@ -232,7 +232,7 @@ func isNil(obj any) bool {
 		return true
 	}
 	rv := reflect.ValueOf(obj)
-	switch rv.Kind() {
+	switch rv.Kind() { //nolint: exhaustive
 	case reflect.Chan,
 		reflect.Func,
 		reflect.Interface,

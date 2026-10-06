@@ -2,7 +2,7 @@ package fillin
 
 import (
 	"io"
-	"sort"
+	"slices"
 	"strings"
 )
 
@@ -59,7 +59,7 @@ func (t *Template) RenderTo(w io.Writer, ctx map[string]any) (int, error) {
 // render appends the rendered template to buf, returning the extended
 // slice and the list of placeholder names missing from ctx. Strict-mode
 // reporting is deferred to the caller so partial output never leaks.
-func (t *Template) render(buf []byte, ctx map[string]any) ([]byte, []string) {
+func (t *Template) render(buf []byte, ctx map[string]any) ([]byte, []string) { //nolint: revive
 	if buf == nil {
 		// estimate output size: template length + extra for value substitution
 		est := len(t.src) + 10*len(t.parsed)
@@ -75,17 +75,15 @@ func (t *Template) render(buf []byte, ctx map[string]any) ([]byte, []string) {
 		val, ok := t.lookup(ctx, name)
 		if !ok {
 			missing = append(missing, name)
-			switch t.errMode {
-			case Empty:
-				// write nothing
+			switch t.errMode { //nolint: revive
+			case Empty, Strict:
+				// strict defers error to caller
 			case Keep:
 				buf = append(buf, t.pre...)
 				buf = append(buf, name...)
 				buf = append(buf, t.post...)
 			case DefaultValue:
 				buf = append(buf, t.defaultVal...)
-			case Strict:
-				// strict defers error to caller
 			}
 			continue
 		}
@@ -100,7 +98,7 @@ func strictErr(mode ErrorMode, missing []string) error {
 	if mode != Strict || len(missing) == 0 {
 		return nil
 	}
-	sort.Strings(missing)
+	slices.Sort(missing)
 	return &Error{Undefined: missing}
 }
 
@@ -136,14 +134,17 @@ func (t *Template) parse(src, pre, post string) []part {
 	preLen, postLen := len(pre), len(post)
 	count := strings.Count(src, pre)
 	if count == 0 {
-		return []part{{kind: partLiteral, off: 0, len: uint16(len(src))}}
+		return []part{{kind: partLiteral, off: 0, len: uint16(len(src))}} //nolint: gosec
 	}
 	parts := make([]part, 0, count*2+1)
 	pos := 0
 	for pos < len(src) {
 		next := strings.Index(src[pos:], pre)
 		if next < 0 {
-			parts = append(parts, part{kind: partLiteral, off: uint32(pos), len: uint16(len(src) - pos)})
+			parts = append(
+				parts,
+				part{kind: partLiteral, off: uint32(pos), len: uint16(len(src) - pos)}, //nolint: gosec
+			)
 			break
 		}
 		next += pos // absolute offset in src
@@ -151,12 +152,15 @@ func (t *Template) parse(src, pre, post string) []part {
 		bodyStart := next + preLen
 		end := strings.Index(src[bodyStart:], post)
 		if end < 0 {
-			parts = append(parts, part{kind: partLiteral, off: uint32(pos), len: uint16(len(src) - pos)})
+			parts = append(
+				parts,
+				part{kind: partLiteral, off: uint32(pos), len: uint16(len(src) - pos)}, //nolint: gosec
+			)
 			break
 		}
 		end += bodyStart // absolute offset in src
 		bodyEnd := end
-		parts = append(parts, part{kind: partLiteral, off: uint32(pos), len: uint16(next - pos)})
+		parts = append(parts, part{kind: partLiteral, off: uint32(pos), len: uint16(next - pos)}) //nolint: gosec
 		// trim placeholder name at parse time, store offset to trimmed content
 		raw := src[bodyStart:bodyEnd]
 		startTrim := 0
@@ -169,7 +173,11 @@ func (t *Template) parse(src, pre, post string) []part {
 		}
 		parts = append(
 			parts,
-			part{kind: partPlaceholder, off: uint32(bodyStart + startTrim), len: uint16(endTrim - startTrim)},
+			part{
+				kind: partPlaceholder,
+				off:  uint32(bodyStart + startTrim), //nolint: gosec
+				len:  uint16(endTrim - startTrim),   //nolint: gosec
+			},
 		)
 		pos = end + postLen
 	}

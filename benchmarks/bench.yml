@@ -1,0 +1,34 @@
+defaults:
+  style: monokai-soda
+  orientation: v
+  aspect: "16:9"
+  show_bar_labels: true
+  show_stddev: true
+  mute_non_baseline: 0.2
+  live:
+    count: 5
+    benchtime: 3s
+
+charts:
+  - name: one-shot
+    title: "One-Shot (lower is better)"
+    spec: BenchmarkCompareOneShot
+    live:
+      warmup: 2
+    outputs:
+      - ../assets/bench_compare_oneshot.svg
+      - ../assets/bench_compare_oneshot.md
+
+  - name: parse
+    title: "Parse (lower is better)"
+    spec: BenchmarkCompareParse
+    outputs:
+      - ../assets/bench_compare_parse.svg
+      - ../assets/bench_compare_parse.md
+
+  - name: render
+    title: "Render (lower is better)"
+    spec: BenchmarkCompareRender
+    outputs:
+      - ../assets/bench_compare_render.svg
+      - ../assets/bench_compare_render.md

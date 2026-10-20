@@ -74,7 +74,9 @@ func (t *Template) render(buf []byte, ctx map[string]any) ([]byte, []string) { /
 		name := p.text(t.src) // already trimmed at parse time
 		val, ok := t.lookup(ctx, name)
 		if !ok {
-			missing = append(missing, name)
+			if t.errMode == Strict {
+				missing = append(missing, name)
+			}
 			switch t.errMode { //nolint: revive
 			case Empty, Strict:
 				// strict defers error to caller

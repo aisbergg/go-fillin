@@ -58,6 +58,20 @@ Before I wrote _fillin_ I used Go's `text/template`, which is powerful, overkill
 go get -u github.com/aisbergg/go-fillin
 ```
 
+Optional CLI (for playing around — not needed when using the library):
+
+```
+$ go install github.com/aisbergg/go-fillin/cmd/fillin
+
+$ echo "Hi {name}" | fillin - name=Alice
+Hi Alice
+
+$ fillin -d '[[' ']]' "[[greeting]] world" greeting=hello
+hello world
+
+$ fillin -f ctx.json -m default -D anon "Hello {user}"
+```
+
 <p align="right"><a href="#readme-top" alt="abc"><b>back to top ⇧</b></a></p>
 
 ## Usage

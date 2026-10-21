@@ -15,9 +15,9 @@
     <br />
     <a href="https://pkg.go.dev/github.com/aisbergg/go-fillin/pkg/fillin">Explore the docs</a>
     ·
-    <a href="https://github.com/aisbergg/go-fillin/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/aisbergg/go-fillin/issues/new?labels=bug&template=bug_report.md">Report Bug</a>
     ·
-    <a href="https://github.com/aisbergg/go-fillin/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/aisbergg/go-fillin/issues/new?labels=enhancement&template=feature_request.md">Request Feature</a>
   </p>
 </div>
 

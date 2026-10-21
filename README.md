@@ -188,7 +188,7 @@ cd benchmarks && go test -bench=BenchmarkCompare -benchtime=1s -benchmem
 Results on Intel i7-8550U @ 1.80GHz:
 
 | Benchmark                            | time/op                | B/op  | allocs/op |
-|--------------------------------------|------------------------|-------|-----------|
+| ------------------------------------ | ---------------------- | ----- | --------- |
 | BenchmarkCompareOneShot/fillin       | 746 ns/op ± 23.8 ns/op | 816   | 4         |
 | BenchmarkCompareOneShot/fasttemplate | 918 ns/op ± 3.31 ns/op | 421   | 13        |
 | BenchmarkCompareOneShot/go-template  | 24.5 µs/op ± 487 ns/op | 12218 | 259       |
@@ -196,7 +196,7 @@ Results on Intel i7-8550U @ 1.80GHz:
 ![](assets/bench_compare_oneshot.svg)
 
 | Benchmark                                   | time/op                 | B/op  | allocs/op |
-|---------------------------------------------|-------------------------|-------|-----------|
+| ------------------------------------------- | ----------------------- | ----- | --------- |
 | BenchmarkCompareParse/size=1/fillin         | 95.8 ns/op ± 2.78 ns/op | 160   | 2         |
 | BenchmarkCompareParse/size=1/fasttemplate   | 171 ns/op ± 0.402 ns/op | 384   | 3         |
 | BenchmarkCompareParse/size=1/go-template    | 2.79 µs/op ± 13.5 ns/op | 3104  | 31        |
@@ -213,7 +213,7 @@ Results on Intel i7-8550U @ 1.80GHz:
 ![](assets/bench_compare_parse.svg)
 
 | Benchmark                                    | time/op                 | B/op  | allocs/op |
-|----------------------------------------------|-------------------------|-------|-----------|
+| -------------------------------------------- | ----------------------- | ----- | --------- |
 | BenchmarkCompareRender/size=1/fillin         | 76.3 ns/op ± 1.59 ns/op | 48    | 2         |
 | BenchmarkCompareRender/size=1/fasttemplate   | 107 ns/op ± 0.286 ns/op | 24    | 2         |
 | BenchmarkCompareRender/size=1/go-template    | 1.13 µs/op ± 4.34 ns/op | 568   | 16        |

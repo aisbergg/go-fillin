@@ -38,7 +38,13 @@ func passOK(t *testing.T, label string, f *fakeT) {
 func failStop(t *testing.T, label string, f *fakeT, substr string) {
 	t.Helper()
 	if !f.errored || f.failNow == 0 {
-		t.Fatalf("%s: expected Errorf and FailNow, got errored=%v failNow=%d msgs=%v", label, f.errored, f.failNow, f.msgs)
+		t.Fatalf(
+			"%s: expected Errorf and FailNow, got errored=%v failNow=%d msgs=%v",
+			label,
+			f.errored,
+			f.failNow,
+			f.msgs,
+		)
 	}
 	if substr != "" && (len(f.msgs) == 0 || !strings.Contains(f.msgs[0], substr)) {
 		t.Fatalf("%s: message %q missing %q", label, f.msgs, substr)

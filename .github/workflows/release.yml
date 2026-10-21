@@ -31,8 +31,6 @@ jobs:
       - name: Create release
         uses: softprops/action-gh-release@v3
         with:
-          tag_name: v${{ steps.tagger.outputs.version }}
-          name: Release v${{ steps.tagger.outputs.version }}
           draft: false
           prerelease: ${{ steps.detect-prerelease.outputs.prerelease }}
           body: ${{ steps.extract-release-notes.outputs.release_notes }}

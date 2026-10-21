@@ -251,4 +251,4 @@ git tag -s -a "$VERSION" -m "$VERSION"
 
 [tasks.release-push]
 description = "Push a release to remote (warning: ensure release was staged properly)"
-run = "git push --follow-tags"
+run = "git push && git push --follow-tags"

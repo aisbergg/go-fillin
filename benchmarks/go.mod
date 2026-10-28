@@ -3,7 +3,7 @@ module fillin-benchmarks
 go 1.27
 
 require (
-	github.com/aisbergg/go-fillin v0.0.0
+	github.com/aisbergg/go-fillin v1.0.1
 	github.com/valyala/fasttemplate v1.2.2
 )
 

@@ -1,25 +1,26 @@
 <a name="readme-top"></a>
 
-[![GoDoc](https://pkg.go.dev/badge/github.com/aisbergg/go-fillin)](https://pkg.go.dev/github.com/aisbergg/go-fillin/pkg/fillin)
-[![Coverage Status](https://codecov.io/gh/aisbergg/go-fillin/branch/main/graph/badge.svg)](https://codecov.io/gh/aisbergg/go-fillin)
-[![License](https://img.shields.io/github/license/aisbergg/go-fillin)](https://pkg.go.dev/github.com/aisbergg/go-fillin)
-
 <br />
 
 <div align="center">
-  <h2 align="center"><b>fillin</b></h2>
-
-  <p align="center">
-    Simple and fast string template engine for placeholder replacement
+    <h2><b>fillin</b></h2>
+    <p>Simple and fast string template engine for placeholder replacement</p>
     <br />
-    <br />
-    <a href="https://pkg.go.dev/github.com/aisbergg/go-fillin/pkg/fillin">Explore the docs</a>
-    ·
-    <a href="https://github.com/aisbergg/go-fillin/issues/new?labels=bug&template=bug_report.md">Report Bug</a>
-    ·
-    <a href="https://github.com/aisbergg/go-fillin/issues/new?labels=enhancement&template=feature_request.md">Request Feature</a>
-  </p>
+    <p>
+        <img src="https://img.shields.io/badge/Go-%2300ADD8.svg?&logo=go&logoColor=white&style=for-the-badge" alt="GoDoc">
+        <img src="https://img.shields.io/badge/📦%20Library-00aed8?style=for-the-badge" alt="License">
+        <a href="https://pkg.go.dev/github.com/aisbergg/go-fillin/pkg/fillin"><img src="https://img.shields.io/badge/-reference-grey?logo=go&style=for-the-badge" alt="GoDoc"></a>
+        <a href="https://pkg.go.dev/github.com/aisbergg/go-fillin"><img src="https://img.shields.io/github/license/aisbergg/go-fillin?style=for-the-badge" alt="License"></a>
+        <a href="https://codecov.io/gh/aisbergg/go-fillin"><img src="https://img.shields.io/codecov/c/github/aisbergg/go-fillin?style=for-the-badge" alt="License"></a>
+    </p>
+    <p>
+        <a href="https://codecov.io/gh/aisbergg/go-fillin"><img src="https://img.shields.io/badge/Report%20Bug-C2301B?style=for-the-badge" alt="License"></a>
+        <a href="https://codecov.io/gh/aisbergg/go-fillin"><img src="https://img.shields.io/badge/Request%20Feature-108C8C?style=for-the-badge" alt="License"></a>
+    </p>
+    <hr />
 </div>
+
+<br />
 
 I needed a simple, _fast_ template engine for string substitution in Go. Something like Python's lesser known String Template (I am not talking about f-strings or the new t-strings). And of course, what better way is there than just writing my own, thus _fillin_ was born!
 

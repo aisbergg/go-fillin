@@ -1,82 +1,97 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 960 540"><path d="M 0 0
-L 960 0
-L 960 540
-L 0 540
-L 0 0" style="stroke:none;fill:rgb(26,26,26)"/><text x="38" y="50" style="stroke:none;fill:rgb(196,197,181);font-size:29.3px;font-family:'Roboto Medium',sans-serif">Render (lower is better)</text><path d="M 299 71
-L 329 71
-L 329 84
-L 299 84
-L 299 71" style="stroke:none;fill:rgb(244,0,95)"/><text x="331" y="83" style="stroke:none;fill:rgb(196,197,181);font-size:17.3px;font-family:'Roboto Medium',sans-serif">fillin</text><path d="M 385 71
-L 415 71
-L 415 84
-L 385 84
-L 385 71" style="stroke:none;fill:rgb(126,184,34)"/><text x="417" y="83" style="stroke:none;fill:rgb(196,197,181);font-size:17.3px;font-family:'Roboto Medium',sans-serif">fasttemplate</text><path d="M 536 71
-L 566 71
-L 566 84
-L 536 84
-L 536 71" style="stroke:none;fill:rgb(184,175,82)"/><text x="568" y="83" style="stroke:none;fill:rgb(196,197,181);font-size:17.3px;font-family:'Roboto Medium',sans-serif">go-template</text><text x="35" y="322" style="stroke:none;fill:rgb(196,197,181);font-size:17.3px;font-family:'Roboto Medium',sans-serif" transform="rotate(270.00,35,322)">ns/op</text><text x="41" y="112" style="stroke:none;fill:rgb(196,197,181);font-size:16px;font-family:'Roboto Medium',sans-serif">110.00 µs</text><text x="41" y="147" style="stroke:none;fill:rgb(196,197,181);font-size:16px;font-family:'Roboto Medium',sans-serif">100.00 µs</text><text x="50" y="182" style="stroke:none;fill:rgb(196,197,181);font-size:16px;font-family:'Roboto Medium',sans-serif">90.00 µs</text><text x="50" y="217" style="stroke:none;fill:rgb(196,197,181);font-size:16px;font-family:'Roboto Medium',sans-serif">80.00 µs</text><text x="50" y="252" style="stroke:none;fill:rgb(196,197,181);font-size:16px;font-family:'Roboto Medium',sans-serif">70.00 µs</text><text x="50" y="287" style="stroke:none;fill:rgb(196,197,181);font-size:16px;font-family:'Roboto Medium',sans-serif">60.00 µs</text><text x="50" y="323" style="stroke:none;fill:rgb(196,197,181);font-size:16px;font-family:'Roboto Medium',sans-serif">50.00 µs</text><text x="50" y="358" style="stroke:none;fill:rgb(196,197,181);font-size:16px;font-family:'Roboto Medium',sans-serif">40.00 µs</text><text x="50" y="393" style="stroke:none;fill:rgb(196,197,181);font-size:16px;font-family:'Roboto Medium',sans-serif">30.00 µs</text><text x="50" y="428" style="stroke:none;fill:rgb(196,197,181);font-size:16px;font-family:'Roboto Medium',sans-serif">20.00 µs</text><text x="50" y="463" style="stroke:none;fill:rgb(196,197,181);font-size:16px;font-family:'Roboto Medium',sans-serif">10.00 µs</text><text x="82" y="499" style="stroke:none;fill:rgb(196,197,181);font-size:16px;font-family:'Roboto Medium',sans-serif">0 ns</text><path d="M 119 106
-L 940 106" style="stroke-width:1;stroke:rgb(94,94,88);fill:none"/><path d="M 119 141
-L 940 141" style="stroke-width:1;stroke:rgb(94,94,88);fill:none"/><path d="M 119 176
-L 940 176" style="stroke-width:1;stroke:rgb(94,94,88);fill:none"/><path d="M 119 212
-L 940 212" style="stroke-width:1;stroke:rgb(94,94,88);fill:none"/><path d="M 119 247
-L 940 247" style="stroke-width:1;stroke:rgb(94,94,88);fill:none"/><path d="M 119 282
-L 940 282" style="stroke-width:1;stroke:rgb(94,94,88);fill:none"/><path d="M 119 318
-L 940 318" style="stroke-width:1;stroke:rgb(94,94,88);fill:none"/><path d="M 119 353
-L 940 353" style="stroke-width:1;stroke:rgb(94,94,88);fill:none"/><path d="M 119 388
-L 940 388" style="stroke-width:1;stroke:rgb(94,94,88);fill:none"/><path d="M 119 424
-L 940 424" style="stroke-width:1;stroke:rgb(94,94,88);fill:none"/><path d="M 119 459
-L 940 459" style="stroke-width:1;stroke:rgb(94,94,88);fill:none"/><path d="M 123 495
-L 940 495" style="stroke-width:1;stroke:rgb(94,94,88);fill:none"/><path d="M 123 500
-L 123 495" style="stroke-width:1;stroke:rgb(94,94,88);fill:none"/><path d="M 327 500
-L 327 495" style="stroke-width:1;stroke:rgb(94,94,88);fill:none"/><path d="M 531 500
-L 531 495" style="stroke-width:1;stroke:rgb(94,94,88);fill:none"/><path d="M 735 500
-L 735 495" style="stroke-width:1;stroke:rgb(94,94,88);fill:none"/><path d="M 940 500
-L 940 495" style="stroke-width:1;stroke:rgb(94,94,88);fill:none"/><text x="201" y="518" style="stroke:none;fill:rgb(196,197,181);font-size:16px;font-family:'Roboto Medium',sans-serif">size=1</text><text x="401" y="518" style="stroke:none;fill:rgb(196,197,181);font-size:16px;font-family:'Roboto Medium',sans-serif">size=10</text><text x="605" y="518" style="stroke:none;fill:rgb(196,197,181);font-size:16px;font-family:'Roboto Medium',sans-serif">size=50</text><text x="804" y="518" style="stroke:none;fill:rgb(196,197,181);font-size:16px;font-family:'Roboto Medium',sans-serif">size=100</text><path d="M 140 495
-L 191 495
-L 191 494
-L 140 494
-L 140 495" style="stroke:none;fill:rgb(244,0,95)"/><path d="M 344 494
-L 395 494
-L 395 494
-L 344 494
-L 344 494" style="stroke:none;fill:rgb(244,0,95)"/><path d="M 548 489
-L 599 489
-L 599 494
-L 548 494
-L 548 489" style="stroke:none;fill:rgb(244,0,95)"/><path d="M 752 482
-L 803 482
-L 803 494
-L 752 494
-L 752 482" style="stroke:none;fill:rgb(244,0,95)"/><path d="M 199 495
-L 250 495
-L 250 494
-L 199 494
-L 199 495" style="stroke:none;fill:rgb(126,184,34)"/><path d="M 403 493
-L 454 493
-L 454 494
-L 403 494
-L 403 493" style="stroke:none;fill:rgb(126,184,34)"/><path d="M 607 483
-L 658 483
-L 658 494
-L 607 494
-L 607 483" style="stroke:none;fill:rgb(126,184,34)"/><path d="M 811 472
-L 862 472
-L 862 494
-L 811 494
-L 811 472" style="stroke:none;fill:rgb(126,184,34)"/><path d="M 258 492
-L 309 492
-L 309 494
-L 258 494
-L 258 492" style="stroke:none;fill:rgb(184,175,82)"/><path d="M 462 460
-L 513 460
-L 513 494
-L 462 494
-L 462 460" style="stroke:none;fill:rgb(184,175,82)"/><path d="M 666 318
-L 717 318
-L 717 494
-L 666 494
-L 666 318" style="stroke:none;fill:rgb(184,175,82)"/><path d="M 870 145
-L 921 145
-L 921 494
-L 870 494
-L 870 145" style="stroke:none;fill:rgb(184,175,82)"/><text x="150" y="478" style="stroke:none;fill:rgb(196,197,181);font-size:12px;font-family:'Roboto Medium',sans-serif">76 ns</text><text x="149" y="490" style="stroke:none;fill:rgb(196,197,181);font-size:12px;font-family:'Roboto Medium',sans-serif">± 2 ns</text><text x="351" y="477" style="stroke:none;fill:rgb(196,197,181);font-size:12px;font-family:'Roboto Medium',sans-serif">420 ns</text><text x="353" y="489" style="stroke:none;fill:rgb(196,197,181);font-size:12px;font-family:'Roboto Medium',sans-serif">± 1 ns</text><text x="553" y="472" style="stroke:none;fill:rgb(196,197,181);font-size:12px;font-family:'Roboto Medium',sans-serif">1.95 µs</text><text x="557" y="484" style="stroke:none;fill:rgb(196,197,181);font-size:12px;font-family:'Roboto Medium',sans-serif">± 6 ns</text><text x="757" y="465" style="stroke:none;fill:rgb(196,197,181);font-size:12px;font-family:'Roboto Medium',sans-serif">3.80 µs</text><text x="761" y="477" style="stroke:none;fill:rgb(196,197,181);font-size:12px;font-family:'Roboto Medium',sans-serif">± 4 ns</text><text x="206" y="478" style="stroke:none;fill:rgb(196,197,181);font-size:12px;font-family:'Roboto Medium',sans-serif">107 ns</text><text x="208" y="490" style="stroke:none;fill:rgb(196,197,181);font-size:12px;font-family:'Roboto Medium',sans-serif">± 0 ns</text><text x="410" y="476" style="stroke:none;fill:rgb(196,197,181);font-size:12px;font-family:'Roboto Medium',sans-serif">759 ns</text><text x="412" y="488" style="stroke:none;fill:rgb(196,197,181);font-size:12px;font-family:'Roboto Medium',sans-serif">± 1 ns</text><text x="612" y="466" style="stroke:none;fill:rgb(196,197,181);font-size:12px;font-family:'Roboto Medium',sans-serif">3.44 µs</text><text x="613" y="478" style="stroke:none;fill:rgb(196,197,181);font-size:12px;font-family:'Roboto Medium',sans-serif">± 11 ns</text><text x="816" y="455" style="stroke:none;fill:rgb(196,197,181);font-size:12px;font-family:'Roboto Medium',sans-serif">6.55 µs</text><text x="817" y="467" style="stroke:none;fill:rgb(196,197,181);font-size:12px;font-family:'Roboto Medium',sans-serif">± 18 ns</text><text x="263" y="475" style="stroke:none;fill:rgb(196,197,181);font-size:12px;font-family:'Roboto Medium',sans-serif">1.13 µs</text><text x="267" y="487" style="stroke:none;fill:rgb(196,197,181);font-size:12px;font-family:'Roboto Medium',sans-serif">± 4 ns</text><text x="467" y="443" style="stroke:none;fill:rgb(196,197,181);font-size:12px;font-family:'Roboto Medium',sans-serif">9.94 µs</text><text x="468" y="455" style="stroke:none;fill:rgb(196,197,181);font-size:12px;font-family:'Roboto Medium',sans-serif">± 31 ns</text><text x="668" y="301" style="stroke:none;fill:rgb(196,197,181);font-size:12px;font-family:'Roboto Medium',sans-serif">50.11 µs</text><text x="668" y="313" style="stroke:none;fill:rgb(196,197,181);font-size:12px;font-family:'Roboto Medium',sans-serif">± 521 ns</text><text x="872" y="128" style="stroke:none;fill:rgb(196,197,181);font-size:12px;font-family:'Roboto Medium',sans-serif">99.16 µs</text><text x="872" y="140" style="stroke:none;fill:rgb(196,197,181);font-size:12px;font-family:'Roboto Medium',sans-serif">± 174 ns</text></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg">
+ <path d="m0 0h960v540h-960v-540" fill="#1a1a1a"/>
+ <text x="38" y="50" fill="rgb(196,197,181)" font-family="'Roboto Medium',sans-serif" font-size="29.3px">Render (lower is better)</text>
+ <path d="m299 71h30v13h-30v-13" fill="#f4005f"/>
+ <text x="331" y="83" fill="rgb(196,197,181)" font-family="'Roboto Medium',sans-serif" font-size="17.3px">fillin</text>
+ <path d="m385 71h30v13h-30v-13" fill="#7eb822"/>
+ <text x="417" y="83" fill="rgb(196,197,181)" font-family="'Roboto Medium',sans-serif" font-size="17.3px">fasttemplate</text>
+ <path d="m536 71h30v13h-30v-13" fill="#b8af52"/>
+ <g fill="rgb(196,197,181)" font-family="'Roboto Medium',sans-serif">
+  <text x="568" y="83" font-size="17.3px">go-template</text>
+  <text transform="rotate(-90 35 322)" x="35" y="322" font-size="17.3px">ns/op</text>
+  <g font-size="16px">
+   <text x="41" y="112">110.00 µs</text>
+   <text x="41" y="147">100.00 µs</text>
+   <text x="50" y="182">90.00 µs</text>
+   <text x="50" y="217">80.00 µs</text>
+   <text x="50" y="252">70.00 µs</text>
+   <text x="50" y="287">60.00 µs</text>
+   <text x="50" y="323">50.00 µs</text>
+   <text x="50" y="358">40.00 µs</text>
+   <text x="50" y="393">30.00 µs</text>
+   <text x="50" y="428">20.00 µs</text>
+   <text x="50" y="463">10.00 µs</text>
+   <text x="82" y="499">0 ns</text>
+  </g>
+ </g>
+ <g fill="none" stroke="#5e5e58">
+  <path d="m119 106h821"/>
+  <path d="m119 141h821"/>
+  <path d="m119 176h821"/>
+  <path d="m119 212h821"/>
+  <path d="m119 247h821"/>
+  <path d="m119 282h821"/>
+  <path d="m119 318h821"/>
+  <path d="m119 353h821"/>
+  <path d="m119 388h821"/>
+  <path d="m119 424h821"/>
+  <path d="m119 459h821"/>
+  <path d="m123 495h817"/>
+  <path d="m123 500v-5"/>
+  <path d="m327 500v-5"/>
+  <path d="m531 500v-5"/>
+  <path d="m735 500v-5"/>
+  <path d="m940 500v-5"/>
+ </g>
+ <g fill="rgb(196,197,181)" font-family="'Roboto Medium',sans-serif" font-size="16px">
+  <text x="201" y="518">size=1</text>
+  <text x="401" y="518">size=10</text>
+  <text x="605" y="518">size=50</text>
+  <text x="804" y="518">size=100</text>
+ </g>
+ <g fill="#f4005f">
+  <path d="m140 495h51v-1h-51v1"/>
+  <path d="m344 493.58h51v0.9894h-51"/>
+  <path d="m548 488h51v6h-51v-6"/>
+  <path d="m752 482h51v12h-51v-12"/>
+ </g>
+ <g fill="#7eb822">
+  <path d="m199 495h51v-1h-51v1"/>
+  <path d="m403 493h51v1h-51v-1"/>
+  <path d="m607 483h51v11h-51v-11"/>
+  <path d="m811 472h51v22h-51v-22"/>
+ </g>
+ <g fill="#b8af52">
+  <path d="m258 491h51v3h-51v-3"/>
+  <path d="m462 460h51v34h-51v-34"/>
+  <path d="m666 316h51v178h-51v-178"/>
+  <path d="m870 139h51v355h-51v-355"/>
+ </g>
+ <g fill="rgb(196,197,181)" font-family="'Roboto Medium',sans-serif" font-size="12px">
+  <text x="150" y="478">76 ns</text>
+  <text x="149" y="490">± 1 ns</text>
+  <text x="351" y="477">423 ns</text>
+  <text x="353" y="489">± 4 ns</text>
+  <text x="553" y="471">2.00 µs</text>
+  <text x="557" y="483">± 9 ns</text>
+  <text x="757" y="465">3.70 µs</text>
+  <text x="761" y="477">± 9 ns</text>
+  <text x="206" y="478">109 ns</text>
+  <text x="208" y="490">± 1 ns</text>
+  <text x="410" y="476">772 ns</text>
+  <text x="412" y="488">± 1 ns</text>
+  <text x="612" y="466">3.51 µs</text>
+  <text x="616" y="478">± 6 ns</text>
+  <text x="816" y="455">6.51 µs</text>
+  <text x="817" y="467">± 17 ns</text>
+  <text x="263" y="474">1.15 µs</text>
+  <text x="267" y="486">± 0 ns</text>
+  <text x="464" y="443">10.10 µs</text>
+  <text x="468" y="455">± 41 ns</text>
+  <text x="668" y="299">50.75 µs</text>
+  <text x="672" y="311">± 97 ns</text>
+  <text x="868" y="122">100.83 µs</text>
+  <text x="872" y="134">± 193 ns</text>
+ </g>
+</svg>

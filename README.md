@@ -7,15 +7,16 @@
     <p>Simple and fast string template engine for placeholder replacement</p>
     <br />
     <p>
-        <img src="https://img.shields.io/badge/Go-%2300ADD8.svg?&logo=go&logoColor=white&style=for-the-badge" alt="GoDoc">
-        <img src="https://img.shields.io/badge/📦%20Library-00aed8?style=for-the-badge" alt="License">
+        <a><img src="https://img.shields.io/badge/Go-%2300ADD8.svg?&logo=go&logoColor=white&style=for-the-badge" alt="GoDoc"></a>
+        <a><img src="https://img.shields.io/badge/📦%20Library-00aed8?style=for-the-badge" alt="License"></a>
         <a href="https://pkg.go.dev/github.com/aisbergg/go-fillin/pkg/fillin"><img src="https://img.shields.io/badge/-reference-grey?logo=go&style=for-the-badge" alt="GoDoc"></a>
         <a href="https://pkg.go.dev/github.com/aisbergg/go-fillin"><img src="https://img.shields.io/github/license/aisbergg/go-fillin?style=for-the-badge" alt="License"></a>
-        <a href="https://codecov.io/gh/aisbergg/go-fillin"><img src="https://img.shields.io/codecov/c/github/aisbergg/go-fillin?style=for-the-badge" alt="License"></a>
+        <a href="https://codecov.io/gh/aisbergg/go-fillin"><img src="https://img.shields.io/codecov/c/github/aisbergg/go-fillin?style=for-the-badge" alt="Coverage"></a>
+        <a href="https://codecov.io/gh/aisbergg/go-fillin"><img src="https://img.shields.io/github/actions/workflow/status/aisbergg/go-fillin/test.yml?label=Tests&style=for-the-badge" alt="Coverage"></a>
     </p>
     <p>
-        <a href="https://codecov.io/gh/aisbergg/go-fillin"><img src="https://img.shields.io/badge/Report%20Bug-C2301B?style=for-the-badge" alt="License"></a>
-        <a href="https://codecov.io/gh/aisbergg/go-fillin"><img src="https://img.shields.io/badge/Request%20Feature-108C8C?style=for-the-badge" alt="License"></a>
+        <a href="https://github.com/aisbergg/go-fillin/issues/new?labels=bug&template=bug_report.yml"><img src="https://img.shields.io/badge/Report%20Bug-C2301B?style=for-the-badge" alt="Report Bug"></a>
+        <a href="https://github.com/aisbergg/go-fillin/issues/new?labels=enhancement&template=feature_request.yml"><img src="https://img.shields.io/badge/Request%20Feature-108C8C?style=for-the-badge" alt="Request Feature"></a>
     </p>
     <hr />
 </div>
@@ -191,17 +192,17 @@ My results on Intel i7-8550U @ 1.80GHz:
 ![](assets/bench_compare_oneshot.svg)
 
 | Benchmark    | time/op                 | B/op  | allocs/op |
-|--------------|-------------------------|-------|-----------|
+| ------------ | ----------------------- | ----- | --------- |
 | fillin       | 717 ns/op ± 17.2 ns/op  | 816   | 4         |
 | fasttemplate | 924 ns/op ± 10.7 ns/op  | 421   | 13        |
 | go-template  | 24.7 µs/op ± 82.8 ns/op | 12218 | 259       |
 
---------------------------------------------------------------------------------
+---
 
 ![](assets/bench_compare_parse.svg)
 
 | Benchmark             | time/op                 | B/op  | allocs/op |
-|-----------------------|-------------------------|-------|-----------|
+| --------------------- | ----------------------- | ----- | --------- |
 | size=1/fillin         | 97.7 ns/op ± 0.95 ns/op | 160   | 2         |
 | size=1/fasttemplate   | 175 ns/op ± 0.255 ns/op | 384   | 3         |
 | size=1/go-template    | 2.85 µs/op ± 7.5 ns/op  | 3104  | 31        |
@@ -215,13 +216,12 @@ My results on Intel i7-8550U @ 1.80GHz:
 | size=100/fasttemplate | 2.83 µs/op ± 24.6 ns/op | 4800  | 3         |
 | size=100/go-template  | 123 µs/op ± 462 ns/op   | 62280 | 1226      |
 
-
---------------------------------------------------------------------------------
+---
 
 ![](assets/bench_compare_render.svg)
 
 | Benchmark             | time/op                  | B/op  | allocs/op |
-|-----------------------|--------------------------|-------|-----------|
+| --------------------- | ------------------------ | ----- | --------- |
 | size=1/fillin         | 76.4 ns/op ± 0.703 ns/op | 48    | 2         |
 | size=1/fasttemplate   | 109 ns/op ± 1.08 ns/op   | 24    | 2         |
 | size=1/go-template    | 1.15 µs/op ± 0.447 ns/op | 568   | 16        |
@@ -234,8 +234,6 @@ My results on Intel i7-8550U @ 1.80GHz:
 | size=100/fillin       | 3.7 µs/op ± 9.31 ns/op   | 4864  | 2         |
 | size=100/fasttemplate | 6.51 µs/op ± 17.5 ns/op  | 5275  | 107       |
 | size=100/go-template  | 101 µs/op ± 193 ns/op    | 36823 | 1110      |
-
-
 
 <p align="right"><a href="#readme-top" alt="abc"><b>back to top ⇧</b></a></p>
 

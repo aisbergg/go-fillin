@@ -1,14 +1,15 @@
 <a name="readme-top"></a>
 
-<br />
-
 <div align="center">
-    <h2><b>fillin</b></h2>
-    <p>Simple and fast string template engine for placeholder replacement</p>
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.svg">
+        <img src="assets/logo-light.svg" alt="fillin — simple template engine" width="600">
+    </picture>
+    <h4>Simple and fast string template engine for placeholder replacement</h4>
     <br />
     <p>
-        <a><img src="https://img.shields.io/badge/Go-%2300ADD8.svg?&logo=go&logoColor=white&style=for-the-badge" alt="GoDoc"></a>
-        <a><img src="https://img.shields.io/badge/📦%20Library-00aed8?style=for-the-badge" alt="License"></a>
+        <a href="#"><img src="https://img.shields.io/badge/Go-%2300ADD8.svg?&logo=go&logoColor=white&style=for-the-badge" alt="GoDoc"></a>
+        <a href="#"><img src="https://img.shields.io/badge/📦%20Library-00aed8?style=for-the-badge" alt="License"></a>
         <a href="https://pkg.go.dev/github.com/aisbergg/go-fillin/pkg/fillin"><img src="https://img.shields.io/badge/-reference-grey?logo=go&style=for-the-badge" alt="GoDoc"></a>
         <a href="https://pkg.go.dev/github.com/aisbergg/go-fillin"><img src="https://img.shields.io/github/license/aisbergg/go-fillin?style=for-the-badge" alt="License"></a>
         <a href="https://codecov.io/gh/aisbergg/go-fillin"><img src="https://img.shields.io/codecov/c/github/aisbergg/go-fillin?style=for-the-badge" alt="Coverage"></a>

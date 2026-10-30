@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="160" viewBox="0 0 660 160" role="img" aria-label="fillin — simple template engine">
+  <title>fillin — simple template engine</title>
+  <defs>
+    <linearGradient id="fadeLeft" gradientUnits="userSpaceOnUse" x1="8" y1="0" x2="144" y2="0">
+      <stop offset="0" stop-color="#94A3B8" stop-opacity="0" />
+      <stop offset="1" stop-color="#94A3B8" />
+    </linearGradient>
+    <linearGradient id="fadeRight" gradientUnits="userSpaceOnUse" x1="516" y1="0" x2="652" y2="0">
+      <stop offset="0" stop-color="#94A3B8" />
+      <stop offset="1" stop-color="#94A3B8" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace" font-weight="700">
+    <text x="144" y="102" font-size="60" text-anchor="end" fill="url(#fadeLeft)">simple</text>
+    <text x="516" y="102" font-size="60" fill="url(#fadeRight)">engine</text>
+    <text x="206" y="98" font-size="76" text-anchor="end" fill="#00ADD8">{</text>
+    <text x="330" y="102" font-size="60" text-anchor="middle" fill="#FFFFFF">fillin</text>
+    <text x="454" y="98" font-size="76" fill="#00ADD8">}</text>
+  </g>
+</svg>

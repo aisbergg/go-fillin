@@ -8,7 +8,7 @@ go = "1.27"
 # Go linter and formatter aggregator.
 # Used in this repo to format code, run lint checks, and apply safe auto-fixes.
 # https://golangci-lint.run/
-golangci-lint = "2.14.0"
+golangci-lint = "2.15.0"
 
 # Opinionated formatter for various text-based files.
 # Used here to keep Markdown, TOML, and other supported project files consistently formatted.

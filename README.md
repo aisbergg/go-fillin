@@ -13,7 +13,8 @@
         <a href="https://pkg.go.dev/github.com/aisbergg/go-fillin/pkg/fillin"><img src="https://img.shields.io/badge/-reference-grey?logo=go&style=for-the-badge" alt="GoDoc"></a>
         <a href="https://pkg.go.dev/github.com/aisbergg/go-fillin"><img src="https://img.shields.io/github/license/aisbergg/go-fillin?style=for-the-badge" alt="License"></a>
         <a href="https://codecov.io/gh/aisbergg/go-fillin"><img src="https://img.shields.io/codecov/c/github/aisbergg/go-fillin?style=for-the-badge" alt="Coverage"></a>
-        <a href="https://codecov.io/gh/aisbergg/go-fillin"><img src="https://img.shields.io/github/actions/workflow/status/aisbergg/go-fillin/test.yml?label=Tests&style=for-the-badge" alt="Coverage"></a>
+        <a href="https://github.com/aisbergg/go-fillin/actions/workflows/test.yml"><img src="https://img.shields.io/github/actions/workflow/status/aisbergg/go-fillin/test.yml?label=Tests&style=for-the-badge" alt="Tests"></a>
+        <a href="https://github.com/aisbergg/go-fillin/actions/workflows/codeql.yml"><img src="https://img.shields.io/github/actions/workflow/status/aisbergg/go-fillin/codeql.yml?label=CodeQL&style=for-the-badge" alt="CodeQL"></a>
     </p>
     <p>
         <a href="https://github.com/aisbergg/go-fillin/issues/new?labels=bug&template=bug_report.yml"><img src="https://img.shields.io/badge/Report%20Bug-C2301B?style=for-the-badge" alt="Report Bug"></a>

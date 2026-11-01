@@ -24,7 +24,9 @@ jobs:
       - uses: jdx/mise-action@v5
       - run: mise run check-generated
       - run: mise run check-format
+      - run: mise run check-typos
       - run: mise run check-lint
+      - run: mise run check-vulns
       - run: mise run check-links
       - run: mise run check-secrets
 

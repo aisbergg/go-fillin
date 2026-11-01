@@ -182,7 +182,7 @@ description = "Verify formatting and spelling checks without changing tracked fi
 run = """
 golangci-lint fmt
 prettier --check .
-typos .
+typos --hidden .
 git diff --exit-code
 """
 
